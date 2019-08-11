@@ -1,7 +1,8 @@
-version: "3.7"
+version: "2.3"
 services:
     nvsmi:
         build: .
-        image: jonathanstaniforth/keras:latest
+        image: jonathanstaniforth/keras:gpu
+        runtime: nvidia
         ports:
         - "8888:8888"
