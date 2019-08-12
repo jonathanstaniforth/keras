@@ -1,7 +1,0 @@
-version: "3.7"
-services:
-    nvsmi:
-        build: .
-        image: jonathanstaniforth/keras:cpu
-        ports:
-        - "8888:8888"
